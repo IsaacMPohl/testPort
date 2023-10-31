@@ -11,7 +11,6 @@ header{
     background-color: black;
     padding-bottom: 5px;
     padding-top: 25px;
-    background-image: url(img/WFade.png);
     background-repeat: no-repeat;
     /* padding-left: 105px; */
     height: 128px;
@@ -240,7 +239,7 @@ tr:nth-child(odd) {
 @media(min-width: 1024px){
      header{ 
         grid-area: header;
-        /* background-image: url(/img/WFade.png); */
+        background-image: url(/img/Glow.png); 
         
     }
     
@@ -277,6 +276,8 @@ tr:nth-child(odd) {
     header{
         text-align: center;
         padding-left: 0;
+        background-image: url(img/WFade.png);
+
     }
 
     h1 {
